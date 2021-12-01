@@ -385,7 +385,7 @@ section .title::after {
 
 /* teams section styling */
 .teams .title::after {
-  content: "who with me";
+  content: "what i did";
 }
 .teams .carousel .card {
   background: #222;
@@ -680,5 +680,25 @@ footer span a:hover {
     width: 35px;
     font-size: 23px;
     line-height: 38px;
+  }
+  input[type="text"],
+  select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .contact-section {
+    background-color: #222;
+    padding: 40px 0;
+  }
+  .border {
+    width: 100px;
+    height: 10px;
+    background: #888;
+    margin: 40px auto;
   }
 }
